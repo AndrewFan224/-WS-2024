@@ -16,3 +16,7 @@ def checkServiceForWord(url, keyword):
 url = 'http://localhost:5000/getProducts'
 result = checkServiceForWord(url, 'id')
 print(result)
+
+url = 'http://localhost:5000/GetTitles'
+result = checkServiceForWord(url, 'title')
+print(result)
