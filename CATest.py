@@ -13,6 +13,6 @@ def checkServiceForWord(url, keyword):
         return False
 
 
-url = 'http://localhost:5000/getTitles'
-result = checkServiceForWord(url, 'title')
+url = 'http://localhost:5000/getProducts'
+result = checkServiceForWord(url, 'id')
 print(result)
